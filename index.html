@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\style.css" />
+    <title>Momentum</title>
+  </head>
+
+  <body>
+    <div class="form-form">
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="clock-box">
+        <h2 id="clock">00:00:00</h2>
+      </div>
+
+      <form id="login-form" class="hidden">
+        <input
+          type="text"
+          required
+          maxlength="15"
+          placeholder="What is your name?"
+        />
+      </form>
+
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+
+    <div class="todo-box">
+      <form id="todo-form" class="todo-form">
+        <input type="text" placeholder="Whrite your To Do List" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <div id="quote" class="quote">
+      <span></span>
+      <div></div>
+    </div>
+
+    <script src="js\clock.js"></script>
+    <script src="js\greetings.js"></script>
+    <script src="js\quotes.js"></script>
+    <script src="js\background.js"></script>
+    <script src="js\todo.js"></script>
+    <script src="js\weather.js"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@500&family=Open+Sans:wght@300;500&family=Smooch+Sans:wght@800&display=swap");
+    </style>
+  </body>
+</html>
